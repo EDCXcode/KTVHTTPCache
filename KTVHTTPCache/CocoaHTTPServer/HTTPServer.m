@@ -421,7 +421,8 @@ static const int httpLogLevel = HTTP_LOG_LEVEL_INFO; // | HTTP_LOG_FLAG_TRACE;
 			HTTPLogInfo(@"%@: Started HTTP server on port %hu", THIS_FILE, [asyncSocket localPort]);
 			
 			isRunning = YES;
-			[self publishBonjour];
+            
+//			[self publishBonjour];
 		}
 		else
 		{
