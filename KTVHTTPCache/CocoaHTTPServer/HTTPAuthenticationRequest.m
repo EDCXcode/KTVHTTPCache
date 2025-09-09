@@ -18,7 +18,6 @@
 	if ((self = [super init]))
 	{
 		NSString *authInfo = [request headerField:@"Authorization"];
-		
 		isBasic = NO;
 		if ([authInfo length] >= 6)
 		{
